@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>House Pricing</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .pricing-table {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      max-width: 800px;
+      margin: 0 auto;
+    }
+
+    .pricing-card {
+      width: 300px;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+      margin: 20px;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .pricing-card h2 {
+      color: #333333;
+    }
+
+    .pricing-card p {
+      color: #777777;
+    }
+
+    .pricing-card .price {
+      font-size: 24px;
+      font-weight: bold;
+      margin: 20px 0;
+    }
+
+    .pricing-card .utilities {
+      margin: 20px 0;
+    }
+  </style>
+</head>
+<body>
+  <h1>House Pricing</h1>
+
+  <div class="pricing-table">
+    <div class="pricing-card">
+      <h2>Standard Package</h2>
+      <p class="price">$990 - $1390</p>
+      <p class="utilities">Flat Rate Utilities: $200/month</p>
+      <p>Includes:</p>
+      <ul>
+        <li>High-speed WiFi</li>
+        <li>TV including sports channels</li>
+        <li>Gas</li>
+        <li>Electric</li>
+        <li>Water</li>
+        <li>Trash removal</li>
+        <li>Landscaping</li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>
